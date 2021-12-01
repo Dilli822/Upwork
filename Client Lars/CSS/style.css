@@ -1,0 +1,182 @@
+
+/*** About Development Team
+ CSS Written By: Dilli Hang Rai
+ gmail: dillihangrae@gmail.com
+ Date" 12/1/2021
+**/
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    display: flex;
+    border: 1px solid rgb(231, 231, 231);
+}
+
+.top-content,
+.content-second{
+    border: 1px solid rgb(231, 231, 231);
+}
+
+.social-media-links{
+    text-align: center;
+}
+
+.inner-bg-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right-bg-container{
+  position: absolute;
+  width: 550px;
+  border: 1px solid red;
+}
+
+.image-logo{
+    max-width: 100%;
+}
+
+.inner-bg-container-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: px solid rgb(235, 232, 232);
+    padding: 8rem 0;
+}
+
+.bg-container-wrapper{
+    background-image: url("../Images/Winter\ Header.jpg");
+    min-height: 60vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.inner-right-container-wrapper{
+    width: 500px;
+}
+
+.inner-bg-container-wrapper figure img{
+    max-width: 100%;
+}
+
+
+.inner-left-container-wrapper h1{
+    color: rgb(222 87 38);
+ } 
+
+@media only screen and (min-width: 990px){
+.inner-left-container-wrapper h1{
+    font-weight: 400;
+    font-size: 57px;
+    color: rgb(222 87 38);
+} 
+
+.inner-left-container-wrapper p{
+color: #7a7777;
+font-size: 18px;
+} }
+
+.inner-bg-container-wrapper p{
+    margin: 0;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+main{
+    /* background-color: rgb(233, 233, 233); */
+    font-size: 17px;
+}
+.top-content h2{
+    color:rgb(71, 80, 207);
+}
+
+img{
+    max-width: 100%;
+}
+
+.right-content{
+    width: 60%;
+}
+
+.left-content{
+    width: 35%;
+    padding: 2rem 0;
+    line-height: 30px;
+    
+}
+
+.social-media-links{
+    /* background-color: rgb(87, 127, 134); */
+    background-color: rgb(48 51 87);
+}
+
+.social-media-links span, .social-media-links span a{
+    font-size: 1.75rem;
+}
+
+.social-media-links span i{
+    padding: 0.5rem;
+    color: rgb(227 227 227);
+}
+
+.heading{
+    /* background-color: rgb(233, 233, 233); */
+    color: rgb(43, 55, 226);
+    padding: 2rem 0;    
+}
+
+.heading h2{
+    font-size: 42px;
+}
+
+footer{
+    padding: 2rem 0 0 0;
+    
+}
+
+@media only screen and (max-width: 767px){
+    .content{
+        flex-wrap: wrap;
+    }
+    .left-content, .right-content{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 990px){
+    .inner-bg-container-wrapper h1,
+    .inner-bg-container-wrapper p{
+        font-size: auto;
+    }
+}
+
+@media only screen and (max-width: 1324px){
+    .content{
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 990px) and (min-width: 767px){
+    .content{
+        font-size: initial;
+    }
+}
+
+@media only screen and (max-width: 467px){
+    .inner-bg-container-wrapper h1{
+        font-size: 1.5rem;
+    }
+
+    .inner-bg-container-wrapper p{
+        font-size: 0.8rem;
+    }
+}
